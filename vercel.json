@@ -1,9 +1,9 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "rewrites": [
+  "routes": [
     {
-      "source": "/:path*",
-      "destination": "https://rainpath-guanyin-walk.yangchenxi0129.chatgpt.site/:path*"
+      "src": "/(.*)",
+      "dest": "https://rainpath-guanyin-walk.yangchenxi0129.chatgpt.site/$1"
     }
   ]
 }
